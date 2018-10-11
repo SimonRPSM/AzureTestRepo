@@ -9,7 +9,7 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- powershell: 'labview-cli --lv-ver 2014 "C:\CLIDemo2.vi"'
+- powershell: 'labview-cli --lv-ver 2015 "C:\CLIDemo2.vi"'
 - script: 
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
