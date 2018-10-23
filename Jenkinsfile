@@ -5,7 +5,7 @@ pipeline {
         stage('build') {
             steps {
                 checkout scm
-                sh 'python --version'
+                sh 'echo test'
             }
         }
     }
