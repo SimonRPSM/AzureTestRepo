@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat "python --version"
-//                bat "labview-cli --kill C:\\Users\\labview\\Documents\\GitHub\\buildsystem\\steps\\lv-build.vi -- 'azurebuild.lvproj' 'My Computer' 'azurebuildspec' 'build_temp' 'C:\Users\labview\.jenkins\workspace'"
+                bat "labview-cli --kill C:\\Users\\labview\\Documents\\GitHub\\buildsystem\\steps\\lv-build.vi -- 'azurebuild.lvproj' 'My Computer' 'azurebuildspec' 'build_temp' 'C:\\Users\\labview\\.jenkins\\workspace'"
             }
         }
         stage('Test') {
