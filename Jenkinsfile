@@ -1,2 +1,4 @@
 import buildtools.*
-buildtools.Pipeline.execute(this,"test")
+
+echo "test"
+// buildtools.Pipeline.execute(this,"test")
