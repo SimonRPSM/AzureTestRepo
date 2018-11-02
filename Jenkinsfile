@@ -1,5 +1,5 @@
 import buildtools.*
-import buildtools.test_tools.*
+import buildtools.test_tools.samplecode.*
 
 echo "test"
 
