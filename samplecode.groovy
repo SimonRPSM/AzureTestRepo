@@ -1,7 +1,7 @@
 class Person {
     String name
     Integer age
-    
+
     Person (name, age){
       this.name = name
       this.age = age
