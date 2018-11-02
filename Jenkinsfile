@@ -1,2 +1,1 @@
-import Person
-def person1 = new Person('john', 35)
+def person1 = new sp.buildtools.Person('john', 35)

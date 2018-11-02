@@ -1,3 +1,4 @@
+package sp.buildtools
 class Person {
     String name
     Integer age
