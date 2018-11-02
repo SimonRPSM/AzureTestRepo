@@ -9,11 +9,11 @@ class Person {
     Integer age
     Person (name, age){
       this.name = name
-      this.age = age
-      echo "newperson"
     }
     def increaseAge(Integer years) {
         this.age += years
     }
 }
+
 def person1 = new Person('john', 35)
+echo person1.age
