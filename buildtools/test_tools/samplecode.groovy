@@ -7,9 +7,7 @@ class Person {
       this.name = name
       this.age = age
     }
-
     def increaseAge(Integer years) {
         this.age += years
     }
-
 }
