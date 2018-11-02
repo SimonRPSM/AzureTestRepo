@@ -20,4 +20,4 @@ class Person {
 }
 
 def person1 = new Person('john', 35)
-echo person1.age
+echo person1.name
