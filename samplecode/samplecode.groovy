@@ -1,3 +1,5 @@
+package samplecode
+
 class Person {
     String name
     Integer age
