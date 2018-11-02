@@ -5,18 +5,16 @@ echo "test"
 
 //using the groovy lang example
 
-class PersonConstructor {
+class Person {
     String name
     Integer age
-
-    PersonConstructor(name, age) {
-        this.name = name
-        this.age = age
+    Person (name, age){
+      this.name = name
+    }
+    def increaseAge(Integer years) {
+        this.age += years
     }
 }
 
-def person1 = new PersonConstructor('Marie', 100)
-def person2 = ['Marie', 2] as PersonConstructor
-PersonConstructor person3 = ['Marie', 30]
-
-echo "end"
+def person1 = new Person('john', 35)
+echo person1.age
