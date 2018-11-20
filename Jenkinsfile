@@ -1,5 +1,4 @@
-// def person1 = new sp.buildtools.Person('john', 35)
-
+#!/usr/bin/env groovy
 pipeline {
     agent { docker { image 'maven:3.3.3' } }
     stages {
