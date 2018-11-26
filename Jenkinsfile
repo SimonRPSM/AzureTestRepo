@@ -3,7 +3,7 @@
 @Library('vs-build-tools') _
 
 def lvVersions = ['2015']
-def nodelabel = 'veristand'
+def nodeLabel = 'dcaf'
 
-ni.vsbuild.PipelineExecutor.execute(this, nodelabel, lvVersions)
+ni.vsbuild.PipelineExecutor.execute(this, nodeLabel, lvVersions)
 diffPipeline('2015')
