@@ -5,5 +5,5 @@
 def lvVersions = ['2015']
 def label = ['dcaf']
 
-ni.vsbuild.PipelineExecutor.execute(this, label, lvVersions)
+ni.vsbuild.PipelineExecutor.execute(this, lvVersions)
 diffPipeline('2015')
