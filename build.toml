@@ -10,7 +10,7 @@ name = 'SampleBuildSpec'
 type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
-build_spec = 'Configuration Release'
+build_spec = 'SampleBuildSpec'
 
 [package]
 type = 'nipkg'
