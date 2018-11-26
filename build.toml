@@ -14,5 +14,5 @@ build_spec = 'SampleBuildSpec'
 
 [package]
 type = 'nipkg'
-payload_dir = 'Built'
+payload_dir = 'Source'
 install_destination = 'documents\Placeholder\Sample\SampleProject'
