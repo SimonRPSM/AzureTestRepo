@@ -15,4 +15,4 @@ build_spec = 'Configuration Release'
 [package]
 type = 'nipkg'
 payload_dir = 'Built'
-install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Timing and Sync'
+install_destination = 'documents\Placeholder\Sample\SampleProject'
