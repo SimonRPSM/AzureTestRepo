@@ -1,2 +1,3 @@
-# AzureTestRepo
-I am using this repo to understand the functionality of Azure DevOps as well as the Jenkins Declarative Pipeline.
+# Jenkins Sandbox
+
+This Repository is being used to test out some Jenkins build stuff. 
