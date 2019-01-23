@@ -12,6 +12,10 @@ project = '{cd}'
 target = 'My Computer'
 build_spec = 'SampleBuildSpec'
 
+[[test.steps]]
+name = 'UTF Example'
+type = 'lvUTF'
+
 [package]
 type = 'nipkg'
 payload_dir = 'Source'
