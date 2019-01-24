@@ -15,6 +15,7 @@ build_spec = 'SampleBuildSpec'
 [[test.steps]]
 name = 'UTF Example'
 type = 'lvUTF'
+UTF_path='Source\SampleProject.lvproj'
 
 [package]
 type = 'nipkg'
