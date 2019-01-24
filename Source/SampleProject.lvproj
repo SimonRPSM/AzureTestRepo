@@ -20,10 +20,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="adder.vi" Type="VI" URL="../adder.vi"/>
-		<Item Name="Untitled.lvtest" Type="TestItem" URL="../Untitled.lvtest">
-			<Property Name="utf.vector.test.bind" Type="Str">3B82F75D-FD30-DC7F-02AD-ECF3006F5F0F</Property>
+		<Item Name="adder.lvtest" Type="TestItem" URL="../adder.lvtest">
+			<Property Name="utf.test.bind" Type="Str">adder.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">F9CEAE7D-FBE3-5908-BFBD-91447595366E</Property>
 		</Item>
+		<Item Name="adder.vi" Type="VI" URL="../adder.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="SampleBuildSpec" Type="EXE">
