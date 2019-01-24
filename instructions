@@ -1,0 +1,5 @@
+<instructions>
+    <customExecutes>
+  <customExecute wait="y" step="install" schedule="post" root="Temp" exeName="copy.bat"/>
+    </customExecutes>
+</instructions>
