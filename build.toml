@@ -19,5 +19,5 @@ UTF_path='Source\SampleProject.lvproj'
 
 [package]
 type = 'nipkg'
-payload_dir = 'Source'
+payload_dir = 'source'
 install_destination = 'documents\Placeholder\Sample\SampleProject'
